@@ -1,0 +1,52 @@
+
+/* Loader icons & animations */
+.spin {
+  animation: spinit 2s linear infinite;
+}
+
+.small{
+  transform: scale(0.35);
+}
+
+
+.spin-ulta{
+    animation: spinit-ulta 1s reverse linear infinite;
+}
+
+
+.clipped-gradient-bg
+{
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+}
+
+
+
+/* Keyframe animations */
+@keyframes fade {
+  0%, 90% { opacity: 1; z-index: 100; }
+  100% { opacity: 0; z-index: -10; }
+}
+@keyframes glow {
+  from { filter: brightness(100%); }
+  to { filter: brightness(300%); }
+}
+@keyframes spin-more {
+  from { transform: rotate(0deg); filter: brightness(100%); }
+  to { transform: rotate(360deg); filter: brightness(200%); }
+}
+@keyframes spinit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinit-ulta {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes progressBar {
+  from { width: 0; }
+  to { width: 100%; }
+}
