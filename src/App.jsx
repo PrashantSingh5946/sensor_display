@@ -44,7 +44,7 @@ return () => {
 
   return (
     <>
-      <div className='w-screen bg-[url("bg.jpg")] bg-cover h-screen flex flex-col justify-center items-center'>
+      <div className='w-screen bg-[url("/bg.jpg")] bg-cover h-screen flex flex-col justify-center items-center'>
 
 
       <div className='relative'>
